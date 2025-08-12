@@ -64,12 +64,18 @@ splits/fold*.json (saved train/val/test subject splits for reproducibility)
 
 # Repo layout
 
-/notebooks
-  EEG_sleep_staging.ipynb     # end-to-end run
-/artifacts
-  metrics_cv.json
-  confusion_cv.png
-  /splits
-    fold1.json ... fold5.json
-/README.md
-/requirements.txt
+EEG_sleep_stage_classifier/
+├── notebooks/
+│   └── EEG_sleep_staging.ipynb
+├── artifacts/
+│   ├── metrics_cv.json
+│   ├── confusion_cv.png
+│   └── splits/
+│       ├── fold1.json
+│       ├── fold2.json
+│       ├── fold3.json
+│       ├── fold4.json
+│       └── fold5.json
+├── requirements.txt
+└── README.md
+
