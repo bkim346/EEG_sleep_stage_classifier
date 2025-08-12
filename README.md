@@ -13,7 +13,6 @@ TL;DR results
 
     HMM smoothing mainly reduces spurious flips; small lift on N1/REM.
     
-<h2>Confusion matrix</h2>
 <p align="center">
   <img src="artifacts/confusion_cv.png" alt="Confusion matrix (5-fold aggregate)" width="500">
 </p>
