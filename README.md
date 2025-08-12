@@ -1,6 +1,7 @@
 # EEG Sleep Staging (Sleep-EDF)
 
 Two-channel sleep stage classifier on Sleep-EDF (Fpz-Cz, Pz-Oz).
+
 Preprocessing → small CNN stem → 1× Transformer encoder → HMM (Viterbi) smoothing. Subject-wise 5-fold CV so we don’t leak subjects across splits.
 
 I wanted a compact, reproducible EEG project that shows I can go end-to-end (data → model → eval) and talk about the trade-offs like an adult: subject-wise CV, macro-F1/κ (not just accuracy), and where the model actually fails (N1/REM).
@@ -14,11 +15,11 @@ TL;DR results
 
 Artifacts land in artifacts/:
 
-    metrics_cv.json (summary + per-class precision/recall/F1)
+metrics_cv.json (summary + per-class precision/recall/F1)
 
-    confusion_cv.png (aggregated over folds)
+confusion_cv.png (aggregated over folds)
 
-    splits/fold*.json (saved train/val/test subject splits for reproducibility)
+splits/fold*.json (saved train/val/test subject splits for reproducibility)
 
 # Data
 
