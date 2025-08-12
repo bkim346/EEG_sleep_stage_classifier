@@ -15,7 +15,7 @@ TL;DR results
     
 <h2>Confusion matrix</h2>
 <p align="center">
-  <img src="artifacts/confusion_cv.png" alt="Confusion matrix (5-fold aggregate)" width="300">
+  <img src="artifacts/confusion_cv.png" alt="Confusion matrix (5-fold aggregate)" width="500">
 </p>
 
 
