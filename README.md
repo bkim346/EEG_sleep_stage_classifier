@@ -65,8 +65,6 @@ splits/fold*.json (saved train/val/test subject splits for reproducibility)
 # Repo layout
 
     EEG_sleep_stage_classifier/
-    ├── notebooks/
-    │   └── EEG_sleep_staging.ipynb
     ├── artifacts/
     │   ├── metrics_cv.json
     │   ├── confusion_cv.png
@@ -76,6 +74,7 @@ splits/fold*.json (saved train/val/test subject splits for reproducibility)
     │       ├── fold3.json
     │       ├── fold4.json
     │       └── fold5.json
+    ├── EEG_sleep_staging.ipynb
     ├── requirements.txt
     └── README.md
 
