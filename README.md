@@ -48,10 +48,8 @@ splits/fold*.json (saved train/val/test subject splits for reproducibility)
     # pip install mne torch torchvision torchaudio scikit-learn numpy pandas matplotlib
 
     # 3) run
-    # Option A: open the notebook and "Run All"
+    # Open the notebook and "Run All" - Make sure to set CV to True and Proof of Concept (POC) to False.
     #    notebooks/EEG_sleep_staging.ipynb
-    # Option B (if you make a script later):
-    #    python scripts/run_cv.py
 
     Outputs will appear under artifacts/.
 
