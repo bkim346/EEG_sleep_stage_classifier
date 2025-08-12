@@ -57,11 +57,11 @@ Artifacts land in artifacts/:
 
 # What’s missing / next steps
 
-    N1/REM are still the weakest classes (as usual with EEG-only). Easy wins: add EOG/EMG, longer context (stack a few epochs), or a cost-sensitive loss.
+    N1/REM are still the weakest classes (as usual with EEG-only). Probably can add EOG/EMG, or have longer context (stack a few epochs), or a cost-sensitive loss (try first).
 
-    Replace the heuristic HMM with a learned transition matrix from train hypnograms.
+    Replace the heuristic HMM with a learned transition matrix from train hypnograms (Need to read more about this).
 
-    Small architecture tweaks: 2–3 encoder layers and a little token-dropout usually add a point or two on macro-F1.
+    Small architecture tweaks: 2–3 encoder layers and a little token-dropout usually add a point or two on macro-F1. (Bigger change seen in other papers, need to understand better)
 
 # Repo layout
 
