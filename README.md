@@ -12,6 +12,9 @@ TL;DR results
     Accuracy: 92.4 ± 1.9% Macro-F1: 79.0 ± 4.0 Cohen’s κ: 0.85 ± 0.04
 
     HMM smoothing mainly reduces spurious flips; small lift on N1/REM.
+    
+## Confusion matrix
+![Confusion matrix (aggregated over 5 folds)](artifacts/confusion_cv.png)
 
 Artifacts land in artifacts/:
 
