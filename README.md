@@ -54,7 +54,7 @@ splits/fold*.json (saved train/val/test subject splits for reproducibility)
 
     # 3) run
     # Open the notebook and "Run All" - Make sure to set CV to True and Proof of Concept (POC) to False.
-    #    notebooks/EEG_sleep_staging.ipynb
+    #    EEG_sleep_staging.ipynb
 
     Outputs will appear under artifacts/.
 
