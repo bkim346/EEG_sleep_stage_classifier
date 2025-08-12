@@ -13,8 +13,11 @@ TL;DR results
 
     HMM smoothing mainly reduces spurious flips; small lift on N1/REM.
     
-## Confusion matrix
-![Confusion matrix (aggregated over 5 folds)](artifacts/confusion_cv.png)
+<h2>Confusion matrix</h2>
+<p align="center">
+  <img src="artifacts/confusion_cv.png" alt="Confusion matrix (5-fold aggregate)" width="300">
+</p>
+
 
 Artifacts land in artifacts/:
 
